@@ -7,9 +7,43 @@
 
     <title>FIP 2016</title>
     <link href="dist/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
+    <link rel="stylesheet" href="dist/css/main.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script type="text/javascript" src="dist/js/bootstrap.min.js"></script>
     <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,700' rel='stylesheet' type='text/css'>
   </head>
   <body>
+    <ul class="nav nav-tabs">
+      <li class="active"><a data-toggle="tab" href="#home">Home</a></li>
+      <li><a href="#schedule" data-toggle="tab">Schedule</a></li>
+      <li><a href="#abstracts" data-toggle="tab">Abstracts</a></li>
+    </ul>
+
+    <div class="tab-content">
+      <div class="tab-pane active" id="home">
+	  <p>
+	  Welcome
+	  </p>
+	  <br><h2><strong>Sponsors</strong></h2>
+		 <br>
+		 <img src="img/OBI.jpg" height="50" width="250"></img>
+		 <br> 
+		 <img src="img/Cedarlane.jpg" height="50" width="275"></img>
+		 <br>
+		 <img src="img/Sleep.jpg" height="80" width="350"></img>
+		 <br>
+		 <img src="img/Cell.jpg" height="100" width="100"></img>
+		<img src="img/NMH.jpg" height="100" width="100"></img>
+		
+		 <img src="img/sickkids.png" height="150" width="300"></img>
+	  </div>
+      <div class="tab-pane" id="schedule">
+	  <p>Schedule</p>
+	  </div>
+      <div class="tab-pane" id="abstracts">
+	  <p>Abstracts</p>
+	  </div>
+    </div>    
+
   </body>
 </html>
